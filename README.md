@@ -1,68 +1,93 @@
 # Calculator_Project
 A simple Command-Line Calculator built using Python. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It accepts user input, handles invalid inputs gracefully, and displays results in the terminal.
 
-## Synent Technologies – Python Development Internship Program
+# Calculator Project
 
-### Objective
+## Task 1 - Simple Calculator (CLI)
 
-Build a command-line calculator that performs basic arithmetic operations and displays the result in the terminal.
+### Developer
 
-### Features
+Gorla Goutham
+
+### Internship
+
+Synent Technologies Python Internship Program
+
+## Objective
+
+Build a command-line calculator that performs basic arithmetic operations using Python.
+
+## Features
 
 * Addition
 * Subtraction
 * Multiplication
 * Division
-* User input handling
-* Invalid input validation
-* Division by zero protection
+* User Input Handling
+* Invalid Input Handling
 
-### Technologies Used
+## Technologies Used
 
 * Python 3
-* Visual Studio Code (VS Code)
-* GitHub
 
-### Project Structure
+## Project Structure
 
-Task1-Simple-Calculator/
+```text
+Calculator_Project/
 │
 ├── calculator.py
 └── README.md
+```
 
-### How to Run
+## How to Run
 
-1. Open the project folder in VS Code.
-2. Open the terminal.
-3. Run:
+1. Clone the repository:
 
+```bash
+git clone https://github.com/Goutham92/Calculator_Project.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Calculator_Project
+```
+
+3. Run the program:
+
+```bash
 python calculator.py
+```
 
-4. Enter two numbers and select an operation (+, -, *, /).
+## Sample Output
 
-### Sample Output
+```text
+Enter First Number: 10
+Enter Second Number: 5
 
-Enter first number: 10
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
 
-Enter second number: 5
+Enter Choice: 1
 
-Enter operation (+, -, *, /): *
+Result: 15
+```
 
-Result = 50.0
+## Learning Outcomes
 
-### Learning Outcomes
+* Python Fundamentals
+* Conditional Statements
+* Arithmetic Operations
+* User Input Handling
+* Command-Line Programming
 
-* Python input and output operations
-* Conditional statements
-* Exception handling
-* Basic arithmetic operations
-* Command-line application development
+## Task Details
 
-### Author
+* Task Number: 1
+* Task Name: Simple Calculator (CLI)
 
-gorla goutham
+## Acknowledgement
 
-### Internship Submission
-
-This project was developed as part of the Synent Technologies Python Development Internship Program.
-
+This project was completed as part of the Synent Technologies Python Internship Program.
